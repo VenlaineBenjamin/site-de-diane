@@ -582,22 +582,21 @@ html {
   }
 }
 
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-28 {
+  margin-bottom: 7rem;
 }
 
 .mb-36 {
   margin-bottom: 9rem;
 }
 
-.mb-28 {
-  margin-bottom: 7rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-6 {
@@ -608,8 +607,8 @@ html {
   margin-bottom: 2rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .flex {
@@ -620,20 +619,28 @@ html {
   height: 24rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-auto {
   flex: 1 1 auto;
 }
 
-.basis-96 {
-  flex-basis: 24rem;
-}
-
 .basis-80 {
   flex-basis: 20rem;
+}
+
+.basis-96 {
+  flex-basis: 24rem;
 }
 
 .flex-col {
@@ -674,12 +681,16 @@ html {
        column-gap: 1.5rem;
 }
 
+.gap-y-2 {
+  row-gap: 0.5rem;
+}
+
 .gap-y-3 {
   row-gap: 0.75rem;
 }
 
-.gap-y-2 {
-  row-gap: 0.5rem;
+.gap-y-8 {
+  row-gap: 2rem;
 }
 
 .rounded-3xl {
@@ -704,14 +715,6 @@ html {
   background-image: url('../images/hero.jpg');
 }
 
-.bg-\[url\(\'\.\/assets\/images\/product-1\.jpg\'\)\] {
-  background-image: url('./assets/images/product-1.jpg');
-}
-
-.bg-\[url\(\'\/images\/product-1\.jpg\'\)\] {
-  background-image: url('/images/product-1.jpg');
-}
-
 .bg-\[url\(\'\.\.\/images\/product-1\.jpg\'\)\] {
   background-image: url('../images/product-1.jpg');
 }
@@ -724,40 +727,44 @@ html {
   background-image: url('../images/product-3.jpg');
 }
 
-.bg-\[url\(\'\.\/assets\/images\/product-4\.jpg\'\)\] {
-  background-image: url('./assets/images/product-4.jpg');
-}
-
 .bg-\[url\(\'\.\.\/images\/product-4\.jpg\'\)\] {
   background-image: url('../images/product-4.jpg');
-}
-
-.bg-\[url\(\'\.\/assets\/images\/product-5\.jpg\'\)\] {
-  background-image: url('./assets/images/product-5.jpg');
 }
 
 .bg-\[url\(\'\.\.\/images\/product-5\.jpg\'\)\] {
   background-image: url('../images/product-5.jpg');
 }
 
-.bg-\[url\(\'\.\/assets\/images\/product-6\.jpg\'\)\] {
-  background-image: url('./assets/images/product-6.jpg');
-}
-
 .bg-\[url\(\'\.\.\/images\/product-6\.jpg\'\)\] {
   background-image: url('../images/product-6.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/images\/wedding\.png\'\)\] {
+  background-image: url('./assets/images/wedding.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/wedding\.png\'\)\] {
+  background-image: url('../assets/images/wedding.png');
+}
+
+.bg-\[url\(\'\.\'\)\] {
+  background-image: url('.');
+}
+
+.bg-\[url\(\'\.\.\/images\/wedding\.png\'\)\] {
+  background-image: url('../images/wedding.png');
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-.bg-center {
-  background-position: center;
-}
-
 .bg-bottom {
   background-position: bottom;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .p-1 {
@@ -766,6 +773,15 @@ html {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-2 {
@@ -778,9 +794,9 @@ html {
   padding-bottom: 1rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-left {
@@ -791,19 +807,9 @@ html {
   text-align: center;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-5xl {
@@ -811,13 +817,18 @@ html {
   line-height: 1;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -833,16 +844,6 @@ html {
   text-transform: uppercase;
 }
 
-.text-cyan-700 {
-  --tw-text-opacity: 1;
-  color: rgb(14 116 144 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -851,4 +852,9 @@ html {
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
